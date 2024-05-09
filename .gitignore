@@ -15,7 +15,7 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/
-lib/apiKey/apiKey.dart
+lib/apiKey.dart
 
 
 # The .vscode folder contains launch configuration and tasks you configure in
