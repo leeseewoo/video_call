@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
+import 'package:video_call/apiKey.dart';
 
 late List<CameraDescription> _cameras;
 
 Future<void> main() async {
   // 1) Flutter 앱이 실핼될 준비가 되었는지 확인
   WidgetsFlutterBinding.ensureInitialized();
+
+  final String apiKey = APK_KEY1;
+
 
   // 2) 핸드폰에 있는 카메라를 가져오기
   _cameras = await availableCameras();
