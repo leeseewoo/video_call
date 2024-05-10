@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
-import 'package:video_call/const/apiKey.dart';  // API Key < .gitignore
+import 'package:video_call/const/apiKey.dart';  // API Key < .gitignore에 기술
 
 class CamScreen extends StatefulWidget {
   const CamScreen({Key? key}) : super(key: key);
